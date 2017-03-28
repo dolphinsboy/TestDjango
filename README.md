@@ -1,5 +1,5 @@
 
-##1. Django 和IntelliJ IDEA
+## 1. Django 和IntelliJ IDEA
 
 ### 1.1 IDEA无法提示models.Model子类的所有方法
 在项目中需要添加 Django模块
