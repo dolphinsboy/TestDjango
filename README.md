@@ -1,4 +1,8 @@
 
+## 0. Django文档
+
+[http://python.usyiyi.cn/django/index.html](http://python.usyiyi.cn/django/index.html)
+
 ## 1. Django 和IntelliJ IDEA
 
 ### 1.1 IDEA无法提示models.Model子类的所有方法
