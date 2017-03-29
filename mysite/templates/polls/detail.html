@@ -1,6 +1,8 @@
 
 {{ question.question }}
 
+{% if error_message %} <p>{{ error_message }}</p>{% endif %}
+
 <form action="{% url 'polls:vote' question.id%}" method="post">
     {% csrf_token %}
     {% for choice in question.choice_set.all %}
