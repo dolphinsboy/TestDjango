@@ -10,7 +10,6 @@ from django.shortcuts import get_object_or_404
 from django.core.urlresolvers import reverse
 
 from django.views import generic
-from django.views.decorators.http import require_http_methods
 
 # def index(request):
 #     question_list = Question.objects.all()
@@ -43,7 +42,6 @@ class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'
 
-@require_http_methods(["POST"])
 def vote(request, question_id):
     p = get_object_or_404(Question, pk=question_id)
 
