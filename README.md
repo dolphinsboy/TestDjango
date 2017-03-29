@@ -31,3 +31,7 @@
 ```
 
 重启IDEA即可
+
+## 2. Django如何测试View
++ [http://python.usyiyi.cn/django/index.html](http://python.usyiyi.cn/django/index.html)
++ [http://www.dougalmatthews.com/2010/Jan/20/testing-your-first-django-app/](http://www.dougalmatthews.com/2010/Jan/20/testing-your-first-django-app/)
